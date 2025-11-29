@@ -76,6 +76,11 @@ pbtm.addEventListener("click", function(dets){
         addScore();
         createBubble();
         setHit();
+    } else {
+        if(score > 0){
+            score -= 10;
+            scoreVal.innerHTML = score;
+        }
     }
 })
 

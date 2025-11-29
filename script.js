@@ -1,5 +1,5 @@
 //move global variables on the top
-let timer = 10;
+let timer = 60;
 let hit = 0; //can be used to match the values
 let score = 0;
 
